@@ -1,0 +1,119 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.flex-container-1 {
+  display: flex;
+  justify-content: center;
+   height: 100px;
+   background-color: #b30710;
+}
+
+.flex-container-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.flex-container-2-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.flex-container-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:  20px 50px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #101011;
+  width: 40px;
+  margin: 5px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  width: 35px;
+  padding: 10px 0;
+  background-color: #0a0a0a;
+  color: #ec0b0b;
+  border: 1px solid #f7f8f8;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #9a9a9c;
+}
+
+button.novo-bt {
+  width: auto;
+  padding: 10px;
+}
+
+.certa, .certa:hover {
+  background: #07b8ee;
+  border: 1px solid #0b81f0;
+  cursor: inherit;
+}
+
+.errada, .errada:hover {
+  background: #ee3203;
+  border: 1px solid #faf7f7;
+  cursor: inherit;
+}
+
+.bg-footer{
+  text-align: center;
+  background-color: #9b1111;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  
+}
+.imagem {
+  margin: 5px 20px;
+  width: 50px;
+  height: 50px;
+}
+.imagem:hover {
+  cursor: pointer;
+  opacity: 60%;
+  box-shadow: 45%;
+  
+}
+.footer p {
+  margin: 10px;
+}
+
+.footer a {
+  width: 50px;
+  height: 50px;
+}
